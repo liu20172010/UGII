@@ -7,6 +7,13 @@ using namespace std;
 int main()
 {
 	int a[] = { 21, 52, 13, 69, 58, 43, 22, 15, 8 };
+	cout << "ÅÅĞòÇ°£º";
+	for (int i = 0; i < 9; i++)
+	{
+		cout << a[i] << "  ";
+	}
+	cout << endl;
+
 	for (int i = 0; i < 9; i++)
 	{
 		for (int j = i+1; j < 9; j++)
@@ -21,6 +28,8 @@ int main()
 		}
 
 	}
+
+	cout << "ÅÅĞòºó£º";
 	for (int i = 0; i < 9; i++)
 	{
 		cout << a[i] << "  " ;
